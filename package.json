@@ -1,0 +1,14 @@
+{
+  "name": "novari-ui-components",
+  "version": "1.0.0",
+  "description": "Common Novari UI for Hub and STF",
+  "main": "build/index.js",
+  "repository": "https://github.com/flexisourceitph/novari-ui-components.git",
+  "author": "Crisnil <cacuyado@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^4.19.3",
+    "react": "^17.0.2",
+    "styled-components": "^5.3.3"
+  }
+}
