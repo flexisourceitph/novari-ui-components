@@ -2,12 +2,18 @@ import styled from "styled-components";
 import { Row, Col, Divider, Table } from "antd";
 import React from "react";
 
-const NovariTable = (props) => {
+
+export interface TableProps {
+    label: string;
+  }
+
+const NovariTable = (props: TableProps ) => {
 
   
   return (
-        <ProductsTable rowKey={row => row.id} {...props}/>
+        <ProductsTable/>
   );
+
 };
 export default NovariTable;
 
